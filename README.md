@@ -1,16 +1,55 @@
-# React + Vite
+#  Lafarge E-Learning - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+> Plateforme E-Learning moderne pour les employés de **LafargeHolcim Maroc**, intégrant un système intelligent de recommandation de formations basé sur le Machine Learning.
 
-Currently, two official plugins are available:
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite)
+![Tailwind](https://img.shields.io/badge/Tailwind-3-38B2AC?logo=tailwind-css)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Objectifs du projet
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+-  Former les employés en ligne, à leur rythme
+-  Suivre leur progression chapitre par chapitre
+-  Générer automatiquement des certificats PDF avec QR code
+-  Recommander des formations personnalisées grâce au Machine Learning
+-  Notifier les utilisateurs en temps réel
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+##  Technologies utilisées
+
+| Catégorie | Technologie |
+|-----------|-------------|
+| **Framework** | React 18 + Vite |
+| **Styling** | Tailwind CSS |
+| **Routage** | React Router DOM |
+| **HTTP Client** | Axios |
+| **Graphiques** | Chart.js + react-chartjs-2 |
+| **État global** | Context API |
+| **Notifications** | Système custom (Toast + Bell) |
+
+---
+
+##  Installation
+
+### Prérequis
+- Node.js 20+
+- npm ou yarn
+
+### Étapes
+
+```bash
+# Cloner le repository
+git clone https://github.com/Hiba-OUHOUD/lafarge-frontend.git
+
+# Entrer dans le dossier
+cd lafarge-frontend
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
+npm run dev
